@@ -47,9 +47,6 @@ Critical : {di['critical']}
 Tests Today: {di['totalTests']}
 '''
 
-	
-
-
 	notification.notify(title="Covid Info India",message=info,app_icon='updater.ico',timeout=18,app_name="CovidStats")
 	beep(sound='ready')
 ##coronainfo()

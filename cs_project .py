@@ -24,7 +24,6 @@ x.field_names=['EmpName','Gender','EmpId','Designation','Age','Emp_Mail','Salary
 
 def progressbar():
 	for i in trange(100):
-		pass
 		sleep(0.02) #LOADING INTERFACE FUNCTION
 
 
